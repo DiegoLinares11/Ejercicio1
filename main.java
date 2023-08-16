@@ -40,11 +40,11 @@ public class main {
                 return;
             } else if (cantidadBoletos > 60) {
                 System.out.println("Su compra va a ser imposible, solo podemos vender 60 entradas");
-                return;
+                return;// Finalizacion programa
             } else if (cantidadBoletos > 20 && cantidadBoletos < 60) {
                 System.out
                         .println("Por localidad solo esta permitido 20 entradas por lo que no será posible venderle ");
-                return;
+                return;// Finalizacion programa.
             } else {
                 System.out.println("Se procesara la orden.");
             }
@@ -89,7 +89,8 @@ public class main {
                     return;
                 }
             }
-
+            // La condicion que pide de que la suma de los dos numeros randoms sean par,
+            // esto lo que hace es terminar el programa si no es par.
         } else {
             System.out.println("El numero de solicitud de compra es: " + num1);
             System.out.println("El numero de solicitud de compra es: " + num2);

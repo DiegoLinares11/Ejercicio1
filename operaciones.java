@@ -18,31 +18,25 @@ public class operaciones {
 
     }
 
+    /*
+     * @param
+     * 
+     * @return ticket
+     */
     public int random() {
         ticket = (int) (Math.random() * MAXIMO) + 1;
         return ticket;
     }
 
+    /*
+     * 
+     * @Param
+     * 
+     * @Return validar
+     */
     public int validacionTickets() {
         validar = (int) (Math.random() * 15000) + 1;
         return validar;
     }
-    /*
-     * public operaciones() {
-     * int numeroRan = validar + validar + ticket;
-     * if (numeroRan % 2 == 0) {
-     * System.out.println(validar);
-     * System.out.println(ticket);
-     * System.out.
-     * println("La suma de los numeros es par por lo que si puede comprar boletos: "
-     * );
-     * } else {
-     * System.out.println(validar);
-     * System.out.println(ticket);
-     * System.out.println("La suma de los numeros es impar");
-     * 
-     * }
-     * }
-     */
 
 }
